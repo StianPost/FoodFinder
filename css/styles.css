@@ -29,3 +29,16 @@
   padding: 20px;
   transition: 2s;
 }
+
+.foodDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foodDiv__dish {
+  width: 30%;
+  border: black 2px solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}

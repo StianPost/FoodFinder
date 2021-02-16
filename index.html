@@ -15,13 +15,23 @@
         <form action="">
           <h2>Seach by number of ingredients</h2>
           <select name="ingredientSelector" id="ingredientSelector">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
+            <option value="1">Page</option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+            <option value="5">4</option>
           </select>
+          <input
+            type="text"
+            name="ingredients"
+            id="ingredients"
+            placeholder="Ingrediens...."
+          />
+          <input type="text" name="dish" id="dish" placeholder="Dish...." />
+          <input type="submit" value="Seach" id="searchBtn" />
         </form>
       </div>
+      <div class="foodDiv"></div>
     </main>
     <script src="/js/components/alert.js"></script>
     <script src="/js/script.js"></script>
